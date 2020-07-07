@@ -1,6 +1,15 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
+@font-face {
+    font-family: 'toledo_serial-regular';
+    src: url('toledo_serial-regular-webfont.woff2') format('woff2'),
+         url('toledo_serial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /*
 	Story by HTML5 UP
 	html5up.net | @ajlkn
@@ -192,9 +201,10 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-family: 'toledo_serial-regular';
+		font-weight: 700;
 		line-height: 1.375;
-		letter-spacing: -0.05em;
+		letter-spacing: 0.1rem;
 		margin: 0 0 1rem 0;
 	}
 
@@ -206,7 +216,6 @@ input, select, textarea {
 	h1 {
 		font-size: 3.5rem;
 		line-height: 1.2;
-		font-family: 'Carme', sans-serif;
 	}
 
 	h2 {
