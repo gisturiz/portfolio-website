@@ -33,7 +33,10 @@
         </ul>
       </div>
       <div class="image">
-        <img src="images/blackwhite.jpg" alt="Black and white triangle structure" />
+        <img class="main-image">
+          <h2 class="image-title">I like to:<span id="typed-text"></h2>
+        </img>
+        <!-- <img src="images/blackwhite.jpg" alt="Black and white triangle structure" /> -->
       </div>
     </section>
 
@@ -241,6 +244,22 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script>
+	  var typed = new Typed('#typed-text', {
+      strings: ['<i>Build</i> cool &amp; helpful things', '<i>Solve</i> challenging problems', '<i>Hike</i> tall, beautiful moutains', '<i>Learn</i> about new &amp; exciting subjects', '<i>Meet</i> new &amp; interesting people', '<i>Cook</i> for friends and family'],
+      typeSpeed: 85,
+      backSpeed: 25,
+      loop: true,
+      cursorChar: '|',
+      backDelay: 800,
+      startDelay: 500,
+      showCursor: false,
+      // attrL: null,
+    });
+  </script>
 </body>
 
 </html>
+
+<!-- ['<i>First</i> sentence.', '&amp; a second sentence.'], -->
