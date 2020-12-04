@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+/* @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
 @font-face {
@@ -7,7 +7,7 @@
     url("toledo_serial-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 /*
 	Story by HTML5 UP
@@ -251,9 +251,9 @@ body,
 input,
 select,
 textarea {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
 }
 
@@ -271,7 +271,7 @@ a:hover {
 
 strong,
 b {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 em,
@@ -293,8 +293,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "toledo_serial-regular";
-  font-weight: 700;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
   line-height: 1.375;
   letter-spacing: 0.1rem;
   margin: 0 0 1rem 0;
